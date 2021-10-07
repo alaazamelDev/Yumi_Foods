@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:online_market/screens/screens.dart';
 
 class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
   final String title;
@@ -29,16 +30,18 @@ class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
         ),
       ),
       actions: [
-        IconButton(
-          onPressed: () {
-            Navigator.pushNamed(context, '/wishlist');
-          },
-          icon: const Icon(
-            Icons.favorite,
-            color: Colors.black,
-          ),
-          splashRadius: 20,
-        ),
+        ModalRoute.of(context)?.settings.name != WishListScreen.routeName
+            ? IconButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, '/wishlist');
+                },
+                icon: const Icon(
+                  Icons.favorite,
+                  color: Colors.black,
+                ),
+                splashRadius: 20,
+              )
+            : const SizedBox(),
       ],
     );
   }

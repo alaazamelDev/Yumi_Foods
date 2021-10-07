@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:online_market/screens/home/home_screen.dart';
 
 class CustomNavBar extends StatelessWidget {
   const CustomNavBar({
@@ -9,14 +10,22 @@ class CustomNavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: ScreenUtil().setHeight(70),
+      height: ScreenUtil().setHeight(60),
       color: Colors.black,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           IconButton(
             onPressed: () {
-              Navigator.pushNamed(context, '/');
+              if (ModalRoute.of(context)!.settings.name !=
+                  HomeScreen.routeName) {
+                if (Navigator.canPop(context)) {
+                  Navigator.popUntil(
+                      context, ModalRoute.withName(HomeScreen.routeName));
+                } else {
+                  Navigator.pushReplacementNamed(context, '/');
+                }
+              }
             },
             icon: const Icon(
               Icons.home_rounded,
