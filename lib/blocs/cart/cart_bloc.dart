@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:online_market/models/models.dart';
+import 'package:yumi_food/models/models.dart';
 
 part 'cart_event.dart';
 part 'cart_state.dart';

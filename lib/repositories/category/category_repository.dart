@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:online_market/models/category_model.dart';
-import 'package:online_market/repositories/category/base_category_repository.dart';
+import 'package:yumi_food/models/category_model.dart';
+import 'package:yumi_food/repositories/category/base_category_repository.dart';
 
 class CategoryRepository extends BaseCategoryRepository {
   final FirebaseFirestore _firebaseFirestore;

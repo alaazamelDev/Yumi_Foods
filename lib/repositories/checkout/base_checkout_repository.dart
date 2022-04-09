@@ -1,4 +1,4 @@
-import 'package:online_market/models/checkout_model.dart';
+import 'package:yumi_food/models/checkout_model.dart';
 
 abstract class BaseCheckoutRepository {
   Future<void> addCheckout(Checkout checkout);

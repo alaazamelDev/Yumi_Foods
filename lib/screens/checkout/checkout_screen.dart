@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:online_market/blocs/cart/cart_bloc.dart';
-import 'package:online_market/blocs/checkout/checkout_bloc.dart';
-import 'package:online_market/screens/home/home_screen.dart';
-import 'package:online_market/widgets/custom_appbar.dart';
-import 'package:online_market/widgets/section_divider.dart';
-import 'package:online_market/widgets/section_title.dart';
-import 'package:online_market/widgets/widgets.dart';
+import 'package:yumi_food/blocs/cart/cart_bloc.dart';
+import 'package:yumi_food/blocs/checkout/checkout_bloc.dart';
+import 'package:yumi_food/screens/home/home_screen.dart';
+import 'package:yumi_food/widgets/widgets.dart';
 
 class CheckoutScreen extends StatelessWidget {
   static const String routeName = '/checkout';

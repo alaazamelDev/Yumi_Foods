@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:online_market/screens/home/home_screen.dart';
+import 'package:yumi_food/screens/home/home_screen.dart';
 
 class SplashScreen extends StatelessWidget {
   static const String routeName = '/splash';

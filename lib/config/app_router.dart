@@ -1,9 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:online_market/models/models.dart';
-import 'package:online_market/screens/checkout/checkout_screen.dart';
-import 'package:online_market/screens/screens.dart';
-import 'package:online_market/screens/user/user_screen.dart';
+import 'package:yumi_food/models/models.dart';
+import 'package:yumi_food/screens/checkout/checkout_screen.dart';
+import 'package:yumi_food/screens/screens.dart';
+import 'package:yumi_food/screens/user/user_screen.dart';
 
 class AppRouter {
   static Route onGenerateRoute(RouteSettings settings) {

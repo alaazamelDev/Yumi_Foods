@@ -2,10 +2,10 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:online_market/blocs/cart/cart_bloc.dart';
-import 'package:online_market/models/checkout_model.dart';
-import 'package:online_market/models/models.dart';
-import 'package:online_market/repositories/checkout/checkout_repository.dart';
+import 'package:yumi_food/blocs/cart/cart_bloc.dart';
+import 'package:yumi_food/models/checkout_model.dart';
+import 'package:yumi_food/models/models.dart';
+import 'package:yumi_food/repositories/checkout/checkout_repository.dart';
 
 part 'checkout_event.dart';
 part 'checkout_state.dart';

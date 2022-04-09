@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:online_market/models/models.dart';
+import 'package:yumi_food/models/models.dart';
 
 class Cart extends Equatable {
   final List<Product> products;
@@ -7,8 +7,6 @@ class Cart extends Equatable {
 
   @override
   List<Object?> get props => [products];
-
-  
 
   Map productQuantity(List<Product> products) {
     var quantity = {};

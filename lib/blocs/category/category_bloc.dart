@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:online_market/models/models.dart';
-import 'package:online_market/repositories/category/category_repository.dart';
+import 'package:yumi_food/models/models.dart';
+import 'package:yumi_food/repositories/category/category_repository.dart';
 
 part 'category_event.dart';
 part 'category_state.dart';

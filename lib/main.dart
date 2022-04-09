@@ -3,16 +3,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:online_market/blocs/cart/cart_bloc.dart';
-import 'package:online_market/blocs/category/category_bloc.dart';
-import 'package:online_market/blocs/checkout/checkout_bloc.dart';
-import 'package:online_market/blocs/product/product_bloc.dart';
-import 'package:online_market/blocs/wishlist/wishlist_bloc.dart';
-import 'package:online_market/config/app_router.dart';
-import 'package:online_market/config/theme.dart';
-import 'package:online_market/repositories/category/category_repository.dart';
-import 'package:online_market/repositories/checkout/checkout_repository.dart';
-import 'package:online_market/repositories/product/product_repository.dart';
+import 'package:yumi_food/blocs/cart/cart_bloc.dart';
+import 'package:yumi_food/blocs/category/category_bloc.dart';
+import 'package:yumi_food/blocs/checkout/checkout_bloc.dart';
+import 'package:yumi_food/blocs/product/product_bloc.dart';
+import 'package:yumi_food/blocs/wishlist/wishlist_bloc.dart';
+import 'package:yumi_food/config/app_router.dart';
+import 'package:yumi_food/config/theme.dart';
+import 'package:yumi_food/repositories/category/category_repository.dart';
+import 'package:yumi_food/repositories/checkout/checkout_repository.dart';
+import 'package:yumi_food/repositories/product/product_repository.dart';
 
 import 'screens/screens.dart';
 

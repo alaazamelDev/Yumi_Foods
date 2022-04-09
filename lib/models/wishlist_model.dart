@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:online_market/models/models.dart';
+import 'package:yumi_food/models/models.dart';
 
 class Wishlist extends Equatable {
   final List<Product> products;

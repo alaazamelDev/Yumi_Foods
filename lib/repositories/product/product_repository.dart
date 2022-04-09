@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:online_market/models/product_model.dart';
-import 'package:online_market/repositories/product/base_product_repository.dart';
+import 'package:yumi_food/models/product_model.dart';
+import 'package:yumi_food/repositories/product/base_product_repository.dart';
 
 class ProductRepository extends BaseProductRepository {
   final FirebaseFirestore _firebaseFirestore;

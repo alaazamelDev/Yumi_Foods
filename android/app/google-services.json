@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "919664402482",
+    "project_id": "messageme-93b4d",
+    "storage_bucket": "messageme-93b4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919664402482:android:156b600b0c942264e65c2b",
+        "android_client_info": {
+          "package_name": "com.alaazamelDev.yumi_food"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919664402482-i2iu9jfcmbgf633fcnkqjqdpjrr3gvrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARtMn4QzKplZvDhAYxBh2hW66EAHxLAM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919664402482-i2iu9jfcmbgf633fcnkqjqdpjrr3gvrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

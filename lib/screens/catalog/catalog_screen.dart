@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:online_market/blocs/product/product_bloc.dart';
-import 'package:online_market/models/models.dart';
-import 'package:online_market/widgets/widgets.dart';
+import 'package:yumi_food/blocs/product/product_bloc.dart';
+import 'package:yumi_food/models/models.dart';
+import 'package:yumi_food/widgets/widgets.dart';
 
 class CatalogScreen extends StatelessWidget {
   static const String routeName = '/catalog';

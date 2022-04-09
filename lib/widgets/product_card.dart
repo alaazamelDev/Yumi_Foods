@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:online_market/blocs/cart/cart_bloc.dart';
-import 'package:online_market/blocs/wishlist/wishlist_bloc.dart';
-import 'package:online_market/models/models.dart';
+import 'package:yumi_food/blocs/cart/cart_bloc.dart';
+import 'package:yumi_food/blocs/wishlist/wishlist_bloc.dart';
+import 'package:yumi_food/models/models.dart';
 
 class ProductCard extends StatelessWidget {
   const ProductCard({

@@ -2,10 +2,10 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:online_market/blocs/cart/cart_bloc.dart';
-import 'package:online_market/blocs/wishlist/wishlist_bloc.dart';
-import 'package:online_market/models/models.dart';
-import 'package:online_market/widgets/widgets.dart';
+import 'package:yumi_food/blocs/cart/cart_bloc.dart';
+import 'package:yumi_food/blocs/wishlist/wishlist_bloc.dart';
+import 'package:yumi_food/models/models.dart';
+import 'package:yumi_food/widgets/widgets.dart';
 
 class ProductScreen extends StatelessWidget {
   static const String routeName = '/product';

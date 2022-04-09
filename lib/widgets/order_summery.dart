@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:online_market/models/models.dart';
+import 'package:yumi_food/models/models.dart';
 
 class OrderSummery extends StatelessWidget {
   const OrderSummery({Key? key, required this.cart}) : super(key: key);

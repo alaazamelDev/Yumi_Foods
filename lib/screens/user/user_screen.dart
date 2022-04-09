@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:online_market/widgets/custom_appbar.dart';
+import 'package:yumi_food/widgets/custom_appbar.dart';
 
 class UserScreen extends StatelessWidget {
   static const String routeName = '/user';

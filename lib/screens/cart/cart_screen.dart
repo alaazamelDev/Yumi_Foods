@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:online_market/blocs/cart/cart_bloc.dart';
-import 'package:online_market/screens/checkout/checkout_screen.dart';
-import 'package:online_market/widgets/widgets.dart';
+import 'package:yumi_food/blocs/cart/cart_bloc.dart';
+import 'package:yumi_food/screens/checkout/checkout_screen.dart';
+import 'package:yumi_food/widgets/widgets.dart';
 
 class CartScreen extends StatelessWidget {
   static const String routeName = '/cart';
@@ -143,7 +143,6 @@ class CartScreen extends StatelessWidget {
                           ),
                         ),
                       ),
-                      
                       const Divider(thickness: 1),
                       OrderSummery(cart: state.cart),
                     ],
